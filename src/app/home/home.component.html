@@ -1,0 +1,20 @@
+<div class="contianer">
+
+    <div class="metaForm">
+        <h2>Add a life goal</h2>
+        <form>
+            <p>Use this form below to add new life goal</p>
+            <input type="text" class="txt" placeholder="New Meta" [(ngModel)]="myMeta.meta" name="meta" /> <br>
+             <input type="submit" value="{{btnxt}}" class="btn" (click)="AgregarMeta()">
+        </form>
+    </div>
+
+
+    <div class="listMetas">
+        <h2>Your Goal List: {{metaList.length}}</h2>
+        <div class="metaCard" *ngFor="let meta of metaList">
+            <p>{{meta.meta}}</p>
+            <input type="submit" value="delete" class="btn" (click)="deleteMeta(meta.id)">
+        </div>
+    </div>
+</div>

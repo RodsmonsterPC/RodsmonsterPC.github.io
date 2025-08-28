@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #1A1616;
+    padding: 3em;
+    font-family: "Raleway", "Arial";
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+ul li{
+    display: inline;
+    margin-right: 30px;
+     color: #fff;
+}
+
+ul li a{
+    display: inline;
+    margin-right: 30px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.contianer{
+    display: flex;
+}
+.listMetas{
+    margin-left: 10rem;
+}
+
+.txt{
+        width: 30rem;
+    height: 2rem;
+    border: 1px solid #eee;
+    border-radius: .3rem;
+}
+
+input{
+    padding-left: .4rem;
+}
+
+.btn{
+    margin-top: 1rem;
+    width: 5rem;
+    height: 2rem;
+    border: 1px solid #eee;
+    border-radius: 1rem
+}
+
